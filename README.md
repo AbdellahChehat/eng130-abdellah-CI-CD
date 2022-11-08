@@ -26,3 +26,8 @@ The main difference is that in continuous Delivery (CD) the deployment is comple
 - Example: Automatically receive an email every morning about your first meeting in case you forget to check your calendar.
 
 <img width="728" alt="Screenshot 2022-11-08 at 10 21 30" src="https://user-images.githubusercontent.com/115224560/200539789-939a61a7-f5cb-4fcb-8626-8d5b2ea3f1c0.png">
+
+
+## What is Jenkins
+
+- An open source automation server which enables developers around the world to reliably build, test, and deploy their software.
