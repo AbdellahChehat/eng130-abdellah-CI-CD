@@ -31,3 +31,13 @@ The main difference is that in continuous Delivery (CD) the deployment is comple
 ## What is Jenkins
 
 - An open source automation server which enables developers around the world to reliably build, test, and deploy their software.
+
+
+-  create a new SSH key pair called-  eng130_jenkins_abdellah - eng130_jenkins_abdellah.pub
+
+
+-Step 1: Create a new CICD pipeline
+  - Step 2: generate a new ssh keypair
+  - step 3: Copt file.pub to github repo 
+  - step 4 copy private key in jenkins
+  - Stgep 5: Create a new job to test the CI
