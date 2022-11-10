@@ -25,7 +25,7 @@ Jenkins is a free and open source automation server. It helps automate the parts
     - Copy the public ssh key into key and name it
     - Now select `Add key`
 
-  **Create a new Jenkins item for CI, Merge and Deploy into EC2 Instance  select Freestyle Project**
+  **Create a new Jenkins item for CI, Merge and Deploy into EC2 Instance**
 
 #### Step 3: CI job on jenkins (test)
 
