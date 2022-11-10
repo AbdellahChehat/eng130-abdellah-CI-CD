@@ -32,9 +32,19 @@ The main difference is that in continuous Delivery (CD) the deployment is comple
 
 - An open source automation server which enables developers around the world to reliably build, test, and deploy their software.
 
+![image-3](https://user-images.githubusercontent.com/115224560/201057032-54868f46-ce8c-4bc7-aaa9-53f9f7bc1e88.png)
 
+
+
+
+## Benefits of Jenkins
+
+- It is an open-source tool with great community support.
+- It is easy to install.
+- It is free of cost.
+
+---
 -  create a new SSH key pair called-  eng130_jenkins_abdellah - eng130_jenkins_abdellah.pub
-
 
 -Step 1: Create a new CICD pipeline
   - Step 2: generate a new ssh keypair
