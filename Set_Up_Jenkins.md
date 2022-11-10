@@ -4,7 +4,7 @@ Jenkins is a free and open source automation server. It helps automate the parts
 
 --- 
 
-## How to create a new job on jenkins
+## How to create a new job on jenkins
 
 - Step 1: Create new item (On the left you should see New item, select that.)
   
