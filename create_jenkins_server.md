@@ -64,5 +64,12 @@ Run the following commands in order
 `docker run -p 8080:8080 -p 50000:50000 --restart=on-failure jenkins/jenkins:lts-jdk11`
 
 
+---
 
+Now using the publick IP of the EC2 lauch jenkins by adding :8080 at the end 
+- Example `http://34.251.46.96:8080/`
+- You will be prompted with the following screen. 
 
+- The password can be found in your terminal 
+
+- `Select plugins to install`
