@@ -5,12 +5,14 @@
 
 - https://docs.docker.com/engine/install/ubuntu/#set-up-the-repository 
 - https://docs.docker.com/desktop/install/ubuntu/ 
+
 AWS EC2 instance setup:
 
 1. Name instance as you will example (Eng130-group1-jenkins-server)
 2. You can either use an existing AMI or use ubuntu 18.04 LTS t2.micro instance
 3. Security group set up should be as follows:
-   
+   <img width="1218" alt="Screenshot 2022-11-11 at 13 33 45" src="https://user-images.githubusercontent.com/115224560/201357235-e0241162-04b3-4cdf-ab54-2fe93f10ced4.png">
+
 4. Then launch the instance.
 
 You now have to SSH into the created EC2 instance for the server.
@@ -37,15 +39,16 @@ Run the following commands in order
     gnupg \
     lsb-release
     ```
-9. ```
-    sudo mkdir -p /etc/apt/keyrings
-    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+    
     ```
-10. ```
-    echo \
-    "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
-    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null 
-    ```
+     sudo mkdir -p /etc/apt/keyrings
+     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+     ```
+     ```
+     echo \
+     "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+     $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null 
+     ```
 
 ### Install Docker Engine
 - https://docs.docker.com/engine/install/ubuntu/#set-up-the-repository
@@ -69,7 +72,10 @@ Run the following commands in order
 Now using the publick IP of the EC2 lauch jenkins by adding :8080 at the end 
 - Example `http://34.251.46.96:8080/`
 - You will be prompted with the following screen. 
+<img width="1044" alt="Screenshot 2022-11-11 at 13 57 54" src="https://user-images.githubusercontent.com/115224560/201357084-14eca68f-5ab8-437c-b1d6-839f8730577d.png">
 
 - The password can be found in your terminal 
 
 - `Select plugins to install`
+<img width="1058" alt="Screenshot 2022-11-11 at 13 58 14" src="https://user-images.githubusercontent.com/115224560/201357189-567e48fe-0987-4129-af88-1f107d5a287b.png">
+
